@@ -13,6 +13,6 @@ export default function JokeBlock() {
     }, []);
 
     return (
-        <blockquote className={styles.quote}>{joke}</blockquote>
+        <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3718858421/size=small/bgcol=ffffff/linkcol=0687f5/track=2846054672/transparent=true/" seamless><a href="https://heavenpierceher.bandcamp.com/album/ultrakill-imperfect-hatred">ULTRAKILL: IMPERFECT HATRED by Heaven Pierce Her</a></iframe>
     )
 }
