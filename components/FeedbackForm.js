@@ -17,15 +17,6 @@ export default function FeedbackForm() {
             </label>
         </p>
   
-        <label htmlFor="name">Name</label>
-        <input id="name" className={styles['form-field']} type="text" name="name" />
-
-        <label htmlFor="email">Email</label>
-        <input id="email" className={styles['form-field']} type="email" name="email" required />
-
-        <label htmlFor="feedback">What is your feedback?</label>
-        <textarea id="feedback" className={styles['form-field']} wrap="soft" name="feedback" required></textarea>
-        <button className={styles.button} type="submit">Submit</button>
-      </form>
+  <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=3718858421/size=small/bgcol=ffffff/linkcol=0687f5/track=2846054672/transparent=true/" seamless><a href="https://heavenpierceher.bandcamp.com/album/ultrakill-imperfect-hatred">ULTRAKILL: IMPERFECT HATRED by Heaven Pierce Her</a></iframe>
   )
 }
